@@ -1,0 +1,22 @@
+# Rust build output (any crate, at any depth)
+**/target/
+
+# Standalone rustc output (e.g. from `rustc example1.rs`)
+*.exe
+*.pdb
+*.o
+*.obj
+*.d
+
+# Linux/macOS binaries built with rustc have no extension; ignore them by name
+course1/module1/example1
+
+# rustfmt backups
+**/*.rs.bk
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
